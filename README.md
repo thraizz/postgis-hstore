@@ -16,4 +16,4 @@ Docker image - PostgreSQL with PostGIS and hstore enabled
     docker push skywidesoft/postgis-hstore:9.6
 
 ### Run container
-    docker run --name postgis22 -p 5432:5432 -v postgis-data:/var/lib/postgresql/data -e POSTGRES_USER=dev -e POSTGRES_PASSWORD=Password1 -d skywidesoft/postgis-hstore:9.6
+    docker run --name pg96-postgis23 -p 5432:5432 -v postgis-data:/var/lib/postgresql/data -e POSTGRES_USER=dev -e POSTGRES_PASSWORD=Password1 -d skywidesoft/postgis-hstore:9.6
