@@ -1,5 +1,5 @@
-FROM postgres:9.6
-MAINTAINER Mike Dillon <mike@appropriate.io>
+FROM postgres:9.6.1
+MAINTAINER Clarence Ho <clarence@skywidesoft.com>
 
 ENV POSTGIS_MAJOR 2.3
 ENV POSTGIS_VERSION 2.3.0+dfsg-2.pgdg80+1
