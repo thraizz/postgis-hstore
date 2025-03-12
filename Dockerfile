@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:17
 
 # Add PostgreSQL's repository for PostGIS packages
 RUN apt-get update \
